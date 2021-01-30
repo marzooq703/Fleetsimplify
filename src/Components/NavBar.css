@@ -1,0 +1,38 @@
+/* Navigation Bar Component Stylesheet */
+.nav-body {
+	background-color: #ffffff;
+	padding-top: 10px;
+}
+.nav-button {
+	width: 100%;
+	height: 51px;
+	background: #ffffff;
+	border: 1px solid rgba(59, 59, 59, 0.49);
+	box-sizing: border-box;
+	padding-top: 5px;
+	margin-top: 10px;
+	cursor: pointer;
+	transition: 0.7s;
+	white-space: nowrap;
+}
+.nav-button-text {
+	width: 100%;
+	height: 51px;
+	text-align: center;
+}
+.nav-button-dark {
+	background: #3b3b3b;
+	color: #ffffff;
+}
+.nav-button:hover {
+	background: #3b3b3b;
+	color: #ffffff;
+}
+.nav-button-dark:hover {
+	background: #ffffff;
+	color: #3b3b3b;
+}
+.menu-text {
+	margin-top: -8px;
+	margin-right: 5px;
+}
